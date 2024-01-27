@@ -39,3 +39,10 @@ Your server will be running at [http://localhost:3000](http://localhost:3000).
     "stockCode": "AAPL"
   }
   ```
+### See favorite Stock
+
+-Endpoint: `GET /api/favorite-stocks`
+
+### Remove Stock from Favorites:
+
+-Endpoint: `DELETE /api/remove-from-favorites/:stockCode`
